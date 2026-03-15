@@ -34,7 +34,7 @@ export async function POST(req: Request) {
         const systemInstruction = `Bạn là trợ lý bán hàng chuyên nghiệp cho cửa hàng công nghệ Apple Store. 
             Hãy giúp khách hàng tìm hiểu về các loại sản phẩm, giải đáp thắc mắc về tính năng và tư vấn lựa chọn phù hợp.
             
-            Dưới đây là danh sách sản phẩm hiện có tại cửa hàng:
+            Dưới đây là danh sách sản phẩm hiện có tại cửa hàng của Bảo:
             ${productContext}
             
             Khi khách hàng hỏi về sản phẩm cụ thể, hãy trả lời dựa trên thông tin trên và kiến thức chuyên môn của bạn. 
